@@ -1,0 +1,147 @@
+/* Scoreboard */
+
+header {
+  background-color: #202020;
+  width: 100%;
+}
+
+iframe {
+  display: none;
+}
+
+#button {
+  display:inline-block;
+  padding:0.3em 1.2em;
+  margin:0 0.3em 0.3em 0;
+  border-radius:2em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Noto-Sans',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  background-color:#4eb5f1;
+  text-align:center;
+  transition: all 0.2s;
+}
+
+#button:hover{
+  background-color:#4095c6;
+}
+
+nav {
+  background-color: #202020;
+}
+
+nav h1,h3 {
+  font-family: 'Noto Sans', sans-serif;
+  color: white;
+}
+
+nav h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
+nav h3 {
+  text-align: center;
+  font-size: 36px;
+}
+
+nav h4 {
+  text-align: center;
+  font-size: 28px;
+  font-family: 'Noto Sans', sans-serif;
+  color: white;
+}
+
+/* Game Area */
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 800px;
+  border: solid black;
+  position: absolute;
+  transform : translate(50%, 0%);
+  background: url("../assets/images/water.png");
+  /* border: 5px solid black;
+  top: 75%;
+  left: 50%;
+  position: absolute;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px; 
+  grid-template-rows: 100px 100px 100px 100px 100px 100px; 
+  justify-content: center;
+  width: 600px;
+  height: 600px;
+  transform : translate(-50%, -50%);
+  background: url("../assets/images/water-bg.png"); */
+}
+
+.wrapper div {
+  width: 50px;
+  height: 50px;
+}
+
+/*  Mobs */
+
+.boat {
+  background: url("images/boat.png");
+  background-size: contain;
+}
+
+.fish {
+  background: url("images/fish.png");
+  background-size: contain;
+}
+
+.drowned-1 {
+  background: url("images/drowned.png");
+  background-size: contain;
+}
+
+.drowned-2 {
+  background: url("images/drowned.png");
+  background-size: contain;
+}
+
+.drowned-3 {
+  background: url("images/drowned.png");
+  background-size: contain;
+}
+
+.drowned-4 {
+  background: url("images/drowned.png");
+  background-size: contain;
+}
+
+.scared-drowned {
+  background: url("images/scared-drowned.png");
+  background-size: contain;
+}
+
+.cobblestone {
+  background-image: url("images/cobblestone.png");
+  background-size: contain;
+}
+
+.ocean-ruin {
+  background-image: url("images/ocean-ruin.png");
+  background-size: contain;
+}
+
+.golden-apple {
+  background-image: url("images/golden-apple.png");
+  background-size: contain;
+}
