@@ -1,2 +1,0 @@
-# sidsoeharto.github.io
-webhost

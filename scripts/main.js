@@ -203,10 +203,8 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!squares[drowned.currentIndex + direction].classList.contains('drowned') && !squares[drowned.currentIndex + direction].classList.contains('cobblestone')) {
         squares[drowned.currentIndex].classList.remove(drowned.className)
         squares[drowned.currentIndex].classList.remove('drowned', 'scared-drowned')
-        //move into that space
         drowned.currentIndex += direction
         squares[drowned.currentIndex].classList.add(drowned.className, 'drowned')
-        //else find a new random direction ot go in
       } else direction = directions[Math.floor(Math.random() * directions.length)]
 
       if (drowned.isScared) {
